@@ -50,22 +50,23 @@
 
 // task
 
-// let x = 20;
+// let x = 10;
 // function test() {
 //     let x = 20;
 //     console.log(x)
 // }
 // test();
 // console.log(x)
+// 10 20
 
 
 
 // {
 //     let a = 10;
-//     let b = 20;
+//     var b = 20;
 // }
-// console.log(a)
 // console.log(b)
+// console.log(a)
 // a is not define
 
 
@@ -141,7 +142,6 @@
 
 
 // let a = 10;
-
 // function foo() {
 //   console.log(a);
 // }
