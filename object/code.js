@@ -68,18 +68,39 @@
 // Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13
 // Output: false
 
-function tar(arr){
-    for(let i = 0; i<=arr.length; i++){
-        for(let j = 0; j<=arr.length; j++){
-            if([i][j] == target){
-                return true;
-            }
-        }
+// function tar(arr,target){
+//     n = arr.length, m = arr[0].length
+//     for(let i = 0; i<=n; i++){
+//         for(let j = 0; j<=m; j++){
+//             if(arr[i][j] == target){
+//                 return true;
+//             }
+//         }
+//     }
+//     return false;
+// }
+
+// const mat = [[1,3,5,7],[10,11,16,20],[23,30,34,60]]
+// const target = 0
+
+// console.log(tar(mat))
+
+// const arr = [0,3, 149, 8, 6, 20]
+
+
+// console.log(Math.min(...arr))
+
+
+function fun(...args){
+    let sum = 0
+    for(let val of args){
+        sum += val
+        return sum
     }
-    return false;
+
 }
 
-const mat = [[1,3,5,7],[10,11,16,20],[23,30,34,60]]
-const target = 12
 
-console.log(tar(mat))
+
+const ans = fun(1,2,3,4,5)
+console.log(ans)
