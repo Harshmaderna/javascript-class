@@ -91,16 +91,18 @@
 // console.log(Math.min(...arr))
 
 
-function fun(...args){
-    let sum = 0
-    for(let val of args){
-        sum += val
-        return sum
-    }
+// function fun(...args){
+//     let sum = 0
+//     for(let val of args){
+//         sum += val
+//         return sum
+//     }
 
-}
+// }
 
 
 
-const ans = fun(1,2,3,4,5)
-console.log(ans)
+// const ans = fun(1,2,3,4,5)
+// console.log(ans)
+
+
