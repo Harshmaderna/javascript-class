@@ -105,4 +105,19 @@
 // const ans = fun(1,2,3,4,5)
 // console.log(ans)
 
+const user = { 
+    name: "Alice", age: 25, city: "Delhi", job: "Engineer"
+ };
 
+
+function contarctKey(user,...args){
+    const res={}
+    for(const key of args){
+        if(key in user)
+            result[key]= user[key]
+    }
+    return result
+}
+
+const ans = contarctKey(user, "name", "job")
+console.log(ans)
