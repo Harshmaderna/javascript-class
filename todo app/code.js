@@ -100,5 +100,3 @@ window.addEventListener('load', () => {
     });
 });
 
-
-addbtn.addEventListener('click', addNewNote);

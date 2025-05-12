@@ -48,3 +48,24 @@ button{
     background-color: rgb(218, 127, 142);
     font-weight: bold;
 }
+
+
+ul{
+
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: black;
+  /* background-color: rgb(86, 94, 94); */
+}
+p{
+  text-align: center;
+  font-size: 20px;
+  color: red;
+}
+
+li{
+  text-align: center;
+  gap: 20px;
+}

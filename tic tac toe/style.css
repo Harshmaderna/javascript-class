@@ -28,6 +28,7 @@
   
   .box {
     height: 18vmin;
+    cursor: pointer;
     width: 18vmin;
     border-radius: 1rem;
     border: none;
@@ -71,4 +72,10 @@
   
   .hide {
     display: none;
+  }
+  #reset-btn{
+    cursor: pointer;
+  }
+  #new-btn{
+    cursor: pointer;
   }
